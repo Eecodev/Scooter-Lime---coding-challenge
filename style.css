@@ -1,0 +1,72 @@
+body{
+  background-image: url("resources/img/background.jpg");
+   /* il re-sizing qui è stato un incubo, come potete notare non ho ancora ben capito come si fa */
+}
+
+.container{
+  width: 800px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 50px;
+}
+
+.logo{
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+}
+
+.logo-text{
+  text-align: center;
+  color: lime;
+
+}
+
+.nav-bar{
+  background-color: lime;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.scooter{
+  color: white;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.location, .charge{
+  font-size: 15px;
+}
+
+.orange{
+  width: 30%;
+  background-color: orange;
+}
+
+.green{
+  width: 50%;
+  background-color: lime;
+}
+
+.red{
+  width: 20%;
+  background-color: red;
+}
+
+.orange, .green, .red{
+  height: 20px;
+  border-radius:5px;
+}
